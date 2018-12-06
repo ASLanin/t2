@@ -1,6 +1,6 @@
 G_giturl = "git@github.com:ASLanin/t2.git"
 
-# just for test 02
+// just for test 03
 
 properties([
 // Builds rotation
