@@ -8,7 +8,7 @@ properties([
     [$class: 'GithubProjectProperty', displayName: '', projectUrlStr: G_giturl],
 // Trigger build from:
     pipelineTriggers([githubPush()])
-})
+])
 
 pipeline {
     agent any
