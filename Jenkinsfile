@@ -1,5 +1,7 @@
 G_giturl = "git@github.com:ASLanin/t2.git"
 
+# just for test
+
 properties([
 // Builds rotation
     buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '10')),
